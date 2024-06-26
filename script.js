@@ -11,16 +11,6 @@ const timer = document.querySelector('.timer');
 // Make an array of objects that stores question, choices of question and answer
 const quiz = [
     {
-        question: "Q. A packet filtering firewall can",
-        choices: ["deny certain users from accessing a service", "block worms and viruses from entering the network", "disallow some files from being accessed through FTP", "block some hosts from accessing the network"],
-        answer: "block some hosts from accessing the network"
-    },
-    {
-        question: "Q. Who developed the theory of general relativity?",
-        choices: ["Isaac Newton", " Nikola Tesla", "Albert Einstein", "Galileo Galilei"],
-        answer: "Albert Einstein"
-    },
-    {
         question: "Q. Which country won the FIFA World Cup in 2018?",
         Choices: ["Brazil", "France", "Germany", "Argentina"],
         Answer: "France"
