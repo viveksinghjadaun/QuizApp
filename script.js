@@ -16,19 +16,29 @@ const quiz = [
         answer: "block some hosts from accessing the network"
     },
     {
-        question: "Q. Which of the following is not a valid way to declare a function in JavaScript?",
-        choices: ["function myFunction() {}", " let myFunction = function() {};", "myFunction: function() {}", "const myFunction = () => {};"],
-        answer: "myFunction: function() {}"
+        question: "Q. Who developed the theory of general relativity?",
+        choices: ["Isaac Newton", " Nikola Tesla", "Albert Einstein", "Galileo Galilei"],
+        answer: "Albert Einstein"
     },
     {
-        question: "Q. Which of the following is not a JavaScript data type?",
-        choices: ["string", "boolean", "object", "float"],
-        answer: "float"
+        question: "Q. Which country won the FIFA World Cup in 2018?",
+        Choices: ["Brazil", "France", "Germany", "Argentina"],
+        Answer: "France"
     },
     {
-        question: "Q. What is the purpose of the this keyword in JavaScript?",
-        choices: ["It refers to the current function.", "It refers to the current object.", "It refers to the parent object.", " It is used for comments."],
-        answer: "It refers to the current object."
+        Question: "Q. Who won the gold medal in the men's 100m race at the 2016 Rio Olympics?",
+        Choices: ["Usain Bolt", "Justin Gatlin", "Yohan Blake", "Andre De Grasse"],
+        Answer: "Usain Bolt"
+    },
+    {
+        Question: "Q. Which Indian state is known as the 'Land of Rising Sun'?",
+        Choices: ["Assam", "Arunachal Pradesh", "Sikkim", "Manipur"],
+        Answer: "Arunachal Pradesh"
+    },
+    {
+        Question: "Q. Which Indian freedom fighter is known as the 'Iron Man of India'?",
+        Choices: ["Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose", "Bhagat Singh"],
+        Answer: "Sardar Vallabhbhai Patel"
     }
 ];
 
