@@ -11,24 +11,24 @@ const timer = document.querySelector('.timer');
 // Make an array of objects that stores question, choices of question and answer
 const quiz = [
     {
-        question: "Q. Which country won the FIFA World Cup in 2018?",
-        Choices: ["Brazil", "France", "Germany", "Argentina"],
-        Answer: "France"
+        question: "Q. A packet filtering firewall can",
+        choices: ["deny certain users from accessing a service", "block worms and viruses from entering the network", "disallow some files from being accessed through FTP", "block some hosts from accessing the network"],
+        answer: "block some hosts from accessing the network"
     },
     {
-        Question: "Q. Who won the gold medal in the men's 100m race at the 2016 Rio Olympics?",
-        Choices: ["Usain Bolt", "Justin Gatlin", "Yohan Blake", "Andre De Grasse"],
-        Answer: "Usain Bolt"
+        question: "Q. Which of the following is not a valid way to declare a function in JavaScript?",
+        choices: ["function myFunction() {}", " let myFunction = function() {};", "myFunction: function() {}", "const myFunction = () => {};"],
+        answer: "myFunction: function() {}"
     },
     {
-        Question: "Q. Which Indian state is known as the 'Land of Rising Sun'?",
-        Choices: ["Assam", "Arunachal Pradesh", "Sikkim", "Manipur"],
-        Answer: "Arunachal Pradesh"
+        question: "Q. Which of the following is not a JavaScript data type?",
+        choices: ["string", "boolean", "object", "float"],
+        answer: "float"
     },
     {
-        Question: "Q. Which Indian freedom fighter is known as the 'Iron Man of India'?",
-        Choices: ["Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose", "Bhagat Singh"],
-        Answer: "Sardar Vallabhbhai Patel"
+        question: "Q. What is the purpose of the this keyword in JavaScript?",
+        choices: ["It refers to the current function.", "It refers to the current object.", "It refers to the parent object.", " It is used for comments."],
+        answer: "It refers to the current object."
     }
 ];
 
