@@ -36,7 +36,7 @@ const quiz = [
 let currentQuestionIndex = 0;
 let score = 0;
 let quizOver = false;
-let timeLeft = 15;
+let timeLeft = 20;
 let timerID = null;
 
 // Arrow Function to Show Questions
